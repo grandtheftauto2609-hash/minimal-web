@@ -42,7 +42,7 @@ body {
 
 .card {
   background: #fafafa;
-  padding: 2rem;
+  padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
@@ -62,4 +62,5 @@ body {
 }
 .texto-centrado{
     text-align: center;
+
 }
