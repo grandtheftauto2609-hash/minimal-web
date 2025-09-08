@@ -6,9 +6,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Orbitron", sans-serif;
-  background-color: white;
-  color:black;
+  background-color: whitesmoke;
+  color: black;
   text-align: center;
+}
+
+/* Contenedor principal que ocupa el espacio sobrante */
+main {
+  flex: 1;
 }
 
 .site-header {
@@ -23,7 +28,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: white;
+  background: whitesmoke;
 }
 
 .hero h2 {
@@ -31,9 +36,7 @@ body {
   margin-bottom: 1rem;
 }
 
-
-
-.servicios{
+.servicios {
   display: block;
   justify-content: center;
   gap: 1rem;
@@ -51,8 +54,8 @@ body {
   padding: 1rem;
   background: #111;
   color: #fff;
-  margin-top: 2rem;
 }
-.texto-centrado{
-    text-align: center;
+
+.texto-centrado {
+  text-align: center;
 }
